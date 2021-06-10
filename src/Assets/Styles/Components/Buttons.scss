@@ -1,0 +1,24 @@
+button {
+  cursor: pointer;
+  padding: 1rem 1.6rem;
+  border: 0;
+  box-shadow: 0 0 1rem $primry-light;
+  border-radius: 1.3rem;
+  transition: all 0.1s linear;
+  &.btn-primary {
+    background-color: $primary-dark;
+    color: $white;
+    &:hover {
+      background-color: $white;
+      color: $primary-dark;
+    }
+  }
+  &.btn-secondary {
+    background-color: $secondary-dark;
+    color: $white;
+    &:hover {
+      background-color: $white;
+      color: $secondary-dark;
+    }
+  }
+}

@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import StoreConfig from "./StoreConfig";
 import { BrowserRouter } from "react-router-dom";
 import Routes from "Modules";
+import "Assets/Styles/Root.scss";
 
 const store = StoreConfig();
 
